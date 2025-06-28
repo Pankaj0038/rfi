@@ -1,3 +1,3 @@
 <?php
-readfile('/etc/passwd');
+echo shell_exec('cat /home/flags.txt');
 ?>
